@@ -5,9 +5,7 @@
 }
 
 body {
-    background-color: #F5F8FF;
-    max-width: 1140px;
-    margin: 0px auto;
+    background-color: #F5F8FF;  
 
 }
 
@@ -19,6 +17,11 @@ body {
 
 
 /* header secton  styles */
+
+.header {
+    max-width: 1140px;
+    margin: 0px auto;
+}
 
 .navbar .fa-light fa-cart-shopping {
     color: black;
@@ -108,9 +111,10 @@ nav {
 
 /*  plants section styles */
 
-/* .our-plants {
-    margin-bottom: 30px;
-} */
+.plants-section {
+max-width: 1140px;
+    margin: 0px auto;
+}
 
 .plants {
     margin: 50px 0;
@@ -173,9 +177,10 @@ nav {
 
 /* plant lover section styles */
 
-/* .trusted-plant-lover {
-    margin-top: 50px;
-} */
+.trusted-plant-lover-section {
+    max-width: 1140px;
+    margin: 0px auto;
+}
 
 .plant-lover {
     display: flex;
@@ -222,7 +227,8 @@ nav {
 /* latest deal section */
 
 .deal-section {
-    margin: 60px 0px;
+    max-width: 1140px;
+    margin: 60px auto;
 }
 
 .letest-deal .letest-deal-title {
@@ -315,6 +321,56 @@ nav {
     text-underline-offset: 6px;
 }
 
+
+/* form section */
+
+.form-section {
+    max-width: 100%;
+  
+}
+
+.form-join {
+    height: 533px;
+    background: url(assets/news-letter-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-join h2 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0 0 10px;
+}
+
+.form-join .btn {
+    display: flex;
+    align-items: center;
+}
+
+.btn input {
+    border: none;
+    font-size: 16px;
+    height: 50px;
+    width: 644px;
+    outline: none;
+    padding: 20px 8px;
+}
+
+.btn button {
+    height: 50px;
+    width: 186px;
+    border: none;
+    padding: 0 26px;
+    background-color: var(--primaryColorRed);
+    color: #ffffff;
+    font-size: 16px;
+}
 
 
 
@@ -641,6 +697,27 @@ nav {
 
     .letest-deal .ana-plant {
         order: 2;
+    }
+
+     /* form section */
+    .form-join {
+        height: 267px;
+    }
+
+    .form-join h2 {
+        font-size: 24px;
+        margin: 0 0 10px;
+    }
+
+    .btn input {
+        border: none;
+        font-size: 14px;
+        width: 218px;
+        padding: 20px 8px;
+    }
+
+    .buttons button {
+        width: 130px;
     }
 
 }
